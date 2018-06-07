@@ -22,6 +22,7 @@ RUN apt-get --quiet update && \
     libmysqlclient20 \
     libpq5 \
     lsb-release \
+    cifs-utils \
     python-jinja2 \
     python-pil \
     python-pip \
