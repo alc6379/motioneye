@@ -29,6 +29,8 @@ RUN apt-get --quiet update && \
     python-setuptools \
     python-tornado \
     python-wheel \
+    cifs-utils \
+    mosquitto-clients \
     v4l-utils && \
     curl -L --output /tmp/motion.deb https://github.com/Motion-Project/motion/releases/download/release-4.1/artful_motion_4.1-1_amd64.deb && \
     dpkg -i /tmp/motion.deb && \
